@@ -1,0 +1,492 @@
+.
+├── classes
+│   └── aed
+│       ├── analisecomplexidade
+│       │   ├── algoritmos
+│       │   │   ├── JogoTorresHanoi_v2.class
+│       │   │   ├── JogoTorresHanoiV2.class
+│       │   │   ├── PontosMaisProximosBK2.class
+│       │   │   ├── PontosMaisProximosBK.class
+│       │   │   ├── PontosMaisProximos.class
+│       │   │   ├── SubsequenciaSomaMaxima.class
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemN2.class
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemN.class
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemNLog2N.class
+│       │   │   └── Torre.class
+│       │   └── utilizacao
+│       │       ├── MainPraticaJogoTorresHanoiV2.class
+│       │       ├── MainPraticaPontosMaisProximos.class
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.class
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN.class
+│       │       └── MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.class
+│       ├── colecoes
+│       │   ├── Colecao.class
+│       │   ├── iteraveis
+│       │   │   ├── associativas
+│       │   │   │   ├── ColecaoIteravelAssociativa.class
+│       │   │   │   ├── estruturas
+│       │   │   │   │   ├── Associacao.class
+│       │   │   │   │   ├── TabelaHash$Entrada.class
+│       │   │   │   │   ├── TabelaHash$IteradorChaves.class
+│       │   │   │   │   ├── TabelaHash$Iterador.class
+│       │   │   │   │   ├── TabelaHash$IteradorParcial.class
+│       │   │   │   │   ├── TabelaHash$IteradorValores.class
+│       │   │   │   │   ├── TabelaHash.class
+│       │   │   │   │   ├── TabelaHashOrdenada$IteradorChaves.class
+│       │   │   │   │   ├── TabelaHashOrdenada$Iterador.class
+│       │   │   │   │   ├── TabelaHashOrdenada$IteradorParcial.class
+│       │   │   │   │   ├── TabelaHashOrdenada$IteradorValores.class
+│       │   │   │   │   ├── TabelaHashOrdenada$NoBase.class
+│       │   │   │   │   ├── TabelaHashOrdenada$No.class
+│       │   │   │   │   ├── TabelaHashOrdenada$NoComElemento.class
+│       │   │   │   │   ├── TabelaHashOrdenada$TabelaHashComReHashOtimizado.class
+│       │   │   │   │   └── TabelaHashOrdenada.class
+│       │   │   │   └── utilizacao
+│       │   │   │       ├── MainPraticaGestorContactos.class
+│       │   │   │       ├── MainPraticaGestorContactosEstendido.class
+│       │   │   │       ├── MainTeoricaTabelaHash.class
+│       │   │   │       └── MainTeoricaTabelaHashOrdenada.class
+│       │   │   ├── ColecaoIteravel.class
+│       │   │   ├── IteradorIteravel.class
+│       │   │   ├── IteradorIteravelDuplo.class
+│       │   │   └── lineares
+│       │   │       ├── ColecaoIteravelLinear.class
+│       │   │       ├── naoordenadas
+│       │   │       │   ├── ColecaoIteravelLinearNaoOrdenada.class
+│       │   │       │   ├── estruturas
+│       │   │       │   │   ├── ListaNaoOrdenada$Iterador.class
+│       │   │       │   │   ├── ListaNaoOrdenada$NoBase.class
+│       │   │       │   │   ├── ListaNaoOrdenada$No.class
+│       │   │       │   │   ├── ListaNaoOrdenada$NoComElemento.class
+│       │   │       │   │   └── ListaNaoOrdenada.class
+│       │   │       │   └── utilizacao
+│       │   │       │       └── MainPraticaListaNaoOrdenada.class
+│       │   │       └── ordenadas
+│       │   │           ├── ColecaoIteravelLinearOrdenada.class
+│       │   │           ├── estruturas
+│       │   │           │   ├── ArvoreBinaria$Iterador.class
+│       │   │           │   ├── ArvoreBinaria$IteradorEmOrdem.class
+│       │   │           │   ├── ArvoreBinaria$IteradorEmOrdemCompleto.class
+│       │   │           │   ├── ArvoreBinaria$IteradorEmOrdemNumIntervalo.class
+│       │   │           │   ├── ArvoreBinaria$IteradorEmProfundidade.class
+│       │   │           │   ├── ArvoreBinaria$IteradorPorNiveis.class
+│       │   │           │   ├── ArvoreBinaria$IteradorPosOrdem.class
+│       │   │           │   ├── ArvoreBinaria$IteradorPreOrdem.class
+│       │   │           │   ├── ArvoreBinaria$NoBase.class
+│       │   │           │   ├── ArvoreBinaria$No.class
+│       │   │           │   ├── ArvoreBinaria$NoComElemento.class
+│       │   │           │   ├── ArvoreBinaria.class
+│       │   │           │   ├── ListaOrdenada$Iterador.class
+│       │   │           │   ├── ListaOrdenada$NoBase.class
+│       │   │           │   ├── ListaOrdenada$No.class
+│       │   │           │   ├── ListaOrdenada$NoComElemento.class
+│       │   │           │   ├── ListaOrdenada.class
+│       │   │           │   └── ListaOrdenadaOrdemDistinta.class
+│       │   │           └── utilizacao
+│       │   │               ├── MainPraticaGestorContactos.class
+│       │   │               ├── MainTeoricaArvoreBinaria.class
+│       │   │               ├── MainTeoricaListaNaoOrdenada.class
+│       │   │               └── MainTeoricaListaOrdenada.class
+│       │   └── naoiteraveis
+│       │       ├── ColecaoNaoIteravel.class
+│       │       ├── estruturas
+│       │       │   ├── Fila.class
+│       │       │   ├── Pilha$No.class
+│       │       │   └── Pilha.class
+│       │       └── utilizacao
+│       │           ├── MainTeoricaFila.class
+│       │           └── MainTeoricaPilha.class
+│       ├── Comparacao.class
+│       ├── ComparacaoInteiros.class
+│       ├── ComparacaoLongs.class
+│       ├── modelo
+│       │   ├── contactos
+│       │   │   ├── comparadores
+│       │   │   │   ├── ComparacaoContactosPorNumeroTelefoneDes.class
+│       │   │   │   └── ComparacaoContactosPorUltimoNomeAscSegPorDataNascimentoDes.class
+│       │   │   ├── Contacto.class
+│       │   │   ├── Data.class
+│       │   │   └── GestorContactos.class
+│       │   └── pessoas
+│       │       ├── comparadores
+│       │       │   ├── ComparacaoPessoasPorBIAsc.class
+│       │       │   └── ComparacaoPessoasPorNomeAsc.class
+│       │       └── Pessoa.class
+│       ├── ordenacao
+│       │   ├── algoritmos
+│       │   │   ├── AlgoritmoOrdenacao.class
+│       │   │   ├── BubbleSort.class
+│       │   │   ├── InsertionSort.class
+│       │   │   ├── QuickSort.class
+│       │   │   └── SelectionSort.class
+│       │   └── utilizacao
+│       │       ├── MainPraticaInsertionSort.class
+│       │       ├── MainPraticaOrdenacaoContactos.class
+│       │       ├── MainTeoricaBubbleSort.class
+│       │       ├── MainTeoricaQuickSort.class
+│       │       └── MainTeoricaSelectionSort.class
+│       ├── pesquisa
+│       │   ├── algoritmos
+│       │   │   ├── AlgoritmoPesquisa.class
+│       │   │   ├── PesquisaBinaria.class
+│       │   │   ├── PesquisaLinearEmSequenciaNaoOrdenada.class
+│       │   │   ├── PesquisaLinearEmSequenciaOrdenada.class
+│       │   │   ├── PesquisaTernariaIterativa.class
+│       │   │   └── PesquisaTernariaRecursiva.class
+│       │   └── utilizacao
+│       │       ├── MainPraticaPesquisaTernaria.class
+│       │       ├── MainTeoricaPesquisaBinaria.class
+│       │       ├── MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.class
+│       │       └── MainTeoricaPesquisaLinearEmSequenciaOrdenada.class
+│       ├── recursividade
+│       │   ├── algoritmos
+│       │   │   ├── Fatorial.class
+│       │   │   ├── Fibonacci.class
+│       │   │   ├── JogoTorresHanoi.class
+│       │   │   └── NumerosQuadradosPitagoras.class
+│       │   └── utilizacao
+│       │       ├── MainPraticaFatorial.class
+│       │       ├── MainPraticaFibonacci.class
+│       │       ├── MainPraticaJogoTorresHanoi.class
+│       │       └── MainPraticaNumerosQuadradosPitagoras.class
+│       └── utils
+│           ├── IOUtils.class
+│           ├── Par.class
+│           ├── Vetor.class
+│           ├── VetorDeInteiros.class
+│           ├── VetorDePoint2D.class
+│           └── VetorDeStrings.class
+├── .idea
+│   ├── compiler.xml
+│   ├── encodings.xml
+│   ├── .gitignore
+│   ├── inspectionProfiles
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── uiDesigner.xml
+│   ├── workspace (Marco Ferreira's conflict 2018-11-13).xml
+│   └── workspace.xml
+├── IDS.ini
+├── log.txt
+├── out
+│   └── production
+│       └── Projeto Base AED
+│           └── aed
+│               ├── analisecomplexidade
+│               │   ├── algoritmos
+│               │   │   ├── JogoTorresHanoi_v2.class
+│               │   │   ├── PontosMaisProximosBK2.class
+│               │   │   ├── PontosMaisProximosBK.class
+│               │   │   ├── PontosMaisProximos.class
+│               │   │   ├── SubsequenciaSomaMaxima.class
+│               │   │   ├── SubsequenciaSomaMaximaDeOrdemN2.class
+│               │   │   ├── SubsequenciaSomaMaximaDeOrdemN.class
+│               │   │   ├── SubsequenciaSomaMaximaDeOrdemNLog2N.class
+│               │   │   └── Torre.class
+│               │   └── utilizacao
+│               │       ├── MainPraticaJogoTorresHanoiV2.class
+│               │       ├── MainPraticaPontosMaisProximos.class
+│               │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.class
+│               │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.jgrasp_canvas.xml
+│               │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN.class
+│               │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN.jgrasp_canvas.xml
+│               │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.class
+│               │       └── MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.jgrasp_canvas.xml
+│               ├── colecoes
+│               │   ├── Colecao.class
+│               │   ├── iteraveis
+│               │   │   ├── associativas
+│               │   │   │   ├── ColecaoIteravelAssociativa.class
+│               │   │   │   ├── estruturas
+│               │   │   │   │   ├── Associacao.class
+│               │   │   │   │   ├── TabelaHash$Entrada.class
+│               │   │   │   │   ├── TabelaHash$IteradorChaves.class
+│               │   │   │   │   ├── TabelaHash$Iterador.class
+│               │   │   │   │   ├── TabelaHash$IteradorParcial.class
+│               │   │   │   │   ├── TabelaHash$IteradorValores.class
+│               │   │   │   │   ├── TabelaHash.class
+│               │   │   │   │   ├── TabelaHashOrdenada$IteradorChaves.class
+│               │   │   │   │   ├── TabelaHashOrdenada$Iterador.class
+│               │   │   │   │   ├── TabelaHashOrdenada$IteradorParcial.class
+│               │   │   │   │   ├── TabelaHashOrdenada$IteradorValores.class
+│               │   │   │   │   ├── TabelaHashOrdenada$NoBase.class
+│               │   │   │   │   ├── TabelaHashOrdenada$No.class
+│               │   │   │   │   ├── TabelaHashOrdenada$NoComElemento.class
+│               │   │   │   │   ├── TabelaHashOrdenada$TabelaHashComReHashOtimizado.class
+│               │   │   │   │   └── TabelaHashOrdenada.class
+│               │   │   │   └── utilizacao
+│               │   │   │       ├── MainPraticaGestorContactos.class
+│               │   │   │       ├── MainPraticaGestorContactosEstendido.class
+│               │   │   │       ├── MainTeoricaTabelaHash.class
+│               │   │   │       ├── MainTeoricaTabelaHash.jgrasp_canvas.xml
+│               │   │   │       ├── MainTeoricaTabelaHashOrdenada.class
+│               │   │   │       └── MainTeoricaTabelaHashOrdenada.jgrasp_canvas.xml
+│               │   │   ├── ColecaoIteravel.class
+│               │   │   ├── IteradorIteravel.class
+│               │   │   ├── IteradorIteravelDuplo.class
+│               │   │   └── lineares
+│               │   │       ├── ColecaoIteravelLinear.class
+│               │   │       ├── naoordenadas
+│               │   │       │   ├── ColecaoIteravelLinearNaoOrdenada.class
+│               │   │       │   ├── estruturas
+│               │   │       │   │   ├── ListaNaoOrdenada$Iterador.class
+│               │   │       │   │   ├── ListaNaoOrdenada$NoBase.class
+│               │   │       │   │   ├── ListaNaoOrdenada$No.class
+│               │   │       │   │   ├── ListaNaoOrdenada$NoComElemento.class
+│               │   │       │   │   └── ListaNaoOrdenada.class
+│               │   │       │   └── utilizacao
+│               │   │       │       └── MainPraticaListaNaoOrdenada.class
+│               │   │       └── ordenadas
+│               │   │           ├── ColecaoIteravelLinearOrdenada.class
+│               │   │           ├── estruturas
+│               │   │           │   ├── ArvoreBinaria$Iterador.class
+│               │   │           │   ├── ArvoreBinaria$IteradorEmOrdem.class
+│               │   │           │   ├── ArvoreBinaria$IteradorEmOrdemCompleto.class
+│               │   │           │   ├── ArvoreBinaria$IteradorEmOrdemNumIntervalo.class
+│               │   │           │   ├── ArvoreBinaria$IteradorEmProfundidade.class
+│               │   │           │   ├── ArvoreBinaria$IteradorPorNiveis.class
+│               │   │           │   ├── ArvoreBinaria$IteradorPosOrdem.class
+│               │   │           │   ├── ArvoreBinaria$IteradorPreOrdem.class
+│               │   │           │   ├── ArvoreBinaria$NoBase.class
+│               │   │           │   ├── ArvoreBinaria$No.class
+│               │   │           │   ├── ArvoreBinaria$NoComElemento.class
+│               │   │           │   ├── ArvoreBinaria.class
+│               │   │           │   ├── ListaOrdenada$Iterador.class
+│               │   │           │   ├── ListaOrdenada$NoBase.class
+│               │   │           │   ├── ListaOrdenada$No.class
+│               │   │           │   ├── ListaOrdenada$NoComElemento.class
+│               │   │           │   ├── ListaOrdenada.class
+│               │   │           │   └── ListaOrdenadaOrdemDistinta.class
+│               │   │           └── utilizacao
+│               │   │               ├── MainPraticaGestorContactos.class
+│               │   │               ├── MainTeoricaArvoreBinaria.class
+│               │   │               ├── MainTeoricaArvoreBinaria.jgrasp_canvas.xml
+│               │   │               ├── MainTeoricaListaNaoOrdenada.class
+│               │   │               ├── MainTeoricaListaNaoOrdenada.jgrasp_canvas.xml
+│               │   │               ├── MainTeoricaListaOrdenada.class
+│               │   │               └── MainTeoricaListaOrdenada.jgrasp_canvas.xml
+│               │   └── naoiteraveis
+│               │       ├── ColecaoNaoIteravel.class
+│               │       ├── estruturas
+│               │       │   ├── Fila.class
+│               │       │   ├── Pilha$No.class
+│               │       │   └── Pilha.class
+│               │       └── utilizacao
+│               │           ├── MainTeoricaFila.class
+│               │           ├── MainTeoricaFila.jgrasp_canvas.xml
+│               │           ├── MainTeoricaPilha.class
+│               │           └── MainTeoricaPilha.jgrasp_canvas.xml
+│               ├── Comparacao.class
+│               ├── ComparacaoInteiros.class
+│               ├── ComparacaoLongs.class
+│               ├── modelo
+│               │   ├── contactos
+│               │   │   ├── baseGestorContactos.ds
+│               │   │   ├── comparadores
+│               │   │   │   ├── ComparacaoContactosPorNumeroTelefoneDes.class
+│               │   │   │   └── ComparacaoContactosPorUltimoNomeAscSegPorDataNascimentoDes.class
+│               │   │   ├── Contacto.class
+│               │   │   ├── Data.class
+│               │   │   └── GestorContactos.class
+│               │   └── pessoas
+│               │       ├── comparadores
+│               │       │   ├── ComparacaoPessoasPorBIAsc.class
+│               │       │   └── ComparacaoPessoasPorNomeAsc.class
+│               │       └── Pessoa.class
+│               ├── ordenacao
+│               │   ├── algoritmos
+│               │   │   ├── AlgoritmoOrdenacao.class
+│               │   │   ├── BubbleSort.class
+│               │   │   ├── InsertionSort.class
+│               │   │   ├── QuickSort.class
+│               │   │   └── SelectionSort.class
+│               │   └── utilizacao
+│               │       ├── MainPraticaInsertionSort.class
+│               │       ├── MainPraticaOrdenacaoContactos.class
+│               │       ├── MainPraticaOrdenacaoContactos.jgrasp_canvas.xml
+│               │       ├── MainTeoricaBubbleSort.class
+│               │       ├── MainTeoricaBubbleSort.jgrasp_canvas.xml
+│               │       ├── MainTeoricaQuickSort.class
+│               │       ├── MainTeoricaQuickSort.jgrasp_canvas.xml
+│               │       ├── MainTeoricaSelectionSort.class
+│               │       └── MainTeoricaSelectionSort.jgrasp_canvas.xml
+│               ├── pesquisa
+│               │   ├── algoritmos
+│               │   │   ├── AlgoritmoPesquisa.class
+│               │   │   ├── PesquisaBinaria.class
+│               │   │   ├── PesquisaLinearEmSequenciaNaoOrdenada.class
+│               │   │   ├── PesquisaLinearEmSequenciaOrdenada.class
+│               │   │   ├── PesquisaTernariaIterativa.class
+│               │   │   └── PesquisaTernariaRecursiva.class
+│               │   └── utilizacao
+│               │       ├── MainPraticaPesquisaTernaria.class
+│               │       ├── MainTeoricaPesquisaBinaria.class
+│               │       ├── MainTeoricaPesquisaBinaria.jgrasp_canvas.xml
+│               │       ├── MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.class
+│               │       ├── MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.jgrasp_canvas.xml
+│               │       ├── MainTeoricaPesquisaLinearEmSequenciaOrdenada.class
+│               │       └── MainTeoricaPesquisaLinearEmSequenciaOrdenada.jgrasp_canvas.xml
+│               ├── recursividade
+│               │   ├── algoritmos
+│               │   │   ├── Fatorial.class
+│               │   │   ├── Fibonacci.class
+│               │   │   ├── JogoTorresHanoi.class
+│               │   │   └── NumerosQuadradosPitagoras.class
+│               │   └── utilizacao
+│               │       ├── MainPraticaFatorial.class
+│               │       ├── MainPraticaFibonacci.class
+│               │       ├── MainPraticaJogoTorresHanoi.class
+│               │       └── MainPraticaNumerosQuadradosPitagoras.class
+│               └── utils
+│                   ├── IOUtils.class
+│                   ├── Par.class
+│                   ├── Vetor.class
+│                   ├── VetorDeInteiros.class
+│                   ├── VetorDePoint2D.class
+│                   └── VetorDeStrings.class
+├── Projeto Base AED.iml
+├── src
+│   └── aed
+│       ├── analisecomplexidade
+│       │   ├── algoritmos
+│       │   │   ├── JogoTorresHanoi_v2.java
+│       │   │   ├── PontosMaisProximosBK2.java
+│       │   │   ├── PontosMaisProximosBK.java
+│       │   │   ├── PontosMaisProximos.java
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemN2.java
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemN.java
+│       │   │   ├── SubsequenciaSomaMaximaDeOrdemNLog2N.java
+│       │   │   ├── SubsequenciaSomaMaxima.java
+│       │   │   └── Torre.java
+│       │   └── utilizacao
+│       │       ├── MainPraticaJogoTorresHanoiV2.java
+│       │       ├── MainPraticaPontosMaisProximos.java
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.java
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.jgrasp_canvas.xml
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN.java
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemN.jgrasp_canvas.xml
+│       │       ├── MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.java
+│       │       └── MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.jgrasp_canvas.xml
+│       ├── colecoes
+│       │   ├── Colecao.java
+│       │   ├── iteraveis
+│       │   │   ├── associativas
+│       │   │   │   ├── ColecaoIteravelAssociativa.java
+│       │   │   │   ├── estruturas
+│       │   │   │   │   ├── Associacao.java
+│       │   │   │   │   ├── TabelaHash.java
+│       │   │   │   │   └── TabelaHashOrdenada.java
+│       │   │   │   └── utilizacao
+│       │   │   │       ├── MainPraticaGestorContactosEstendido.java
+│       │   │   │       ├── MainPraticaGestorContactos.java
+│       │   │   │       ├── MainTeoricaTabelaHash.java
+│       │   │   │       ├── MainTeoricaTabelaHash.jgrasp_canvas.xml
+│       │   │   │       ├── MainTeoricaTabelaHashOrdenada.java
+│       │   │   │       └── MainTeoricaTabelaHashOrdenada.jgrasp_canvas.xml
+│       │   │   ├── ColecaoIteravel.java
+│       │   │   ├── IteradorIteravelDuplo.java
+│       │   │   ├── IteradorIteravel.java
+│       │   │   └── lineares
+│       │   │       ├── ColecaoIteravelLinear.java
+│       │   │       ├── naoordenadas
+│       │   │       │   ├── ColecaoIteravelLinearNaoOrdenada.java
+│       │   │       │   ├── estruturas
+│       │   │       │   │   └── ListaNaoOrdenada.java
+│       │   │       │   └── utilizacao
+│       │   │       │       └── MainPraticaListaNaoOrdenada.java
+│       │   │       └── ordenadas
+│       │   │           ├── ColecaoIteravelLinearOrdenada.java
+│       │   │           ├── estruturas
+│       │   │           │   ├── ArvoreBinaria.java
+│       │   │           │   ├── ListaOrdenada.java
+│       │   │           │   └── ListaOrdenadaOrdemDistinta.java
+│       │   │           └── utilizacao
+│       │   │               ├── MainPraticaGestorContactos.java
+│       │   │               ├── MainTeoricaArvoreBinaria.java
+│       │   │               ├── MainTeoricaArvoreBinaria.jgrasp_canvas.xml
+│       │   │               ├── MainTeoricaListaNaoOrdenada.java
+│       │   │               ├── MainTeoricaListaNaoOrdenada.jgrasp_canvas.xml
+│       │   │               ├── MainTeoricaListaOrdenada.java
+│       │   │               └── MainTeoricaListaOrdenada.jgrasp_canvas.xml
+│       │   └── naoiteraveis
+│       │       ├── ColecaoNaoIteravel.java
+│       │       ├── estruturas
+│       │       │   ├── Fila.java
+│       │       │   └── Pilha.java
+│       │       └── utilizacao
+│       │           ├── MainTeoricaFila.java
+│       │           ├── MainTeoricaFila.jgrasp_canvas.xml
+│       │           ├── MainTeoricaPilha.java
+│       │           └── MainTeoricaPilha.jgrasp_canvas.xml
+│       ├── ComparacaoInteiros.java
+│       ├── Comparacao.java
+│       ├── ComparacaoLongs.java
+│       ├── modelo
+│       │   ├── contactos
+│       │   │   ├── baseGestorContactos.ds
+│       │   │   ├── comparadores
+│       │   │   │   ├── ComparacaoContactosPorNumeroTelefoneDes.java
+│       │   │   │   └── ComparacaoContactosPorUltimoNomeAscSegPorDataNascimentoDes.java
+│       │   │   ├── Contacto.java
+│       │   │   ├── Data.java
+│       │   │   └── GestorContactos.java
+│       │   └── pessoas
+│       │       ├── comparadores
+│       │       │   ├── ComparacaoPessoasPorBIAsc.java
+│       │       │   └── ComparacaoPessoasPorNomeAsc.java
+│       │       └── Pessoa.java
+│       ├── ordenacao
+│       │   ├── algoritmos
+│       │   │   ├── AlgoritmoOrdenacao.java
+│       │   │   ├── BubbleSort.java
+│       │   │   ├── InsertionSort.java
+│       │   │   ├── QuickSort.java
+│       │   │   └── SelectionSort.java
+│       │   └── utilizacao
+│       │       ├── MainPraticaInsertionSort.java
+│       │       ├── MainPraticaOrdenacaoContactos.java
+│       │       ├── MainPraticaOrdenacaoContactos.jgrasp_canvas.xml
+│       │       ├── MainTeoricaBubbleSort.java
+│       │       ├── MainTeoricaBubbleSort.jgrasp_canvas.xml
+│       │       ├── MainTeoricaQuickSort.java
+│       │       ├── MainTeoricaQuickSort.jgrasp_canvas.xml
+│       │       ├── MainTeoricaSelectionSort.java
+│       │       └── MainTeoricaSelectionSort.jgrasp_canvas.xml
+│       ├── pesquisa
+│       │   ├── algoritmos
+│       │   │   ├── AlgoritmoPesquisa.java
+│       │   │   ├── PesquisaBinaria.java
+│       │   │   ├── PesquisaLinearEmSequenciaNaoOrdenada.java
+│       │   │   ├── PesquisaLinearEmSequenciaOrdenada.java
+│       │   │   ├── PesquisaTernariaIterativa.java
+│       │   │   └── PesquisaTernariaRecursiva.java
+│       │   └── utilizacao
+│       │       ├── MainPraticaPesquisaTernaria.java
+│       │       ├── MainTeoricaPesquisaBinaria.java
+│       │       ├── MainTeoricaPesquisaBinaria.jgrasp_canvas.xml
+│       │       ├── MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.java
+│       │       ├── MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.jgrasp_canvas.xml
+│       │       ├── MainTeoricaPesquisaLinearEmSequenciaOrdenada.java
+│       │       └── MainTeoricaPesquisaLinearEmSequenciaOrdenada.jgrasp_canvas.xml
+│       ├── recursividade
+│       │   ├── algoritmos
+│       │   │   ├── Fatorial.java
+│       │   │   ├── Fibonacci.java
+│       │   │   ├── JogoTorresHanoi.java
+│       │   │   └── NumerosQuadradosPitagoras.java
+│       │   └── utilizacao
+│       │       ├── MainPraticaFatorial.java
+│       │       ├── MainPraticaFibonacci.java
+│       │       ├── MainPraticaJogoTorresHanoi.java
+│       │       └── MainPraticaNumerosQuadradosPitagoras.java
+│       └── utils
+│           ├── IOUtils.java
+│           ├── Par.java
+│           ├── VetorDeInteiros.java
+│           ├── VetorDePoint2D.java
+│           ├── VetorDeStrings.java
+│           └── Vetor.java
+├── tmp.ds
+└── tree.txt
+
+110 directories, 380 files
